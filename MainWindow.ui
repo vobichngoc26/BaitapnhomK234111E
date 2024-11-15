@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../ListMathProject/images/student.png</normaloff>../ListMathProject/images/student.png</iconset>
+    <normaloff>../ListMathProject/images/3099385_woman_student_icon.png</normaloff>../ListMathProject/images/3099385_woman_student_icon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 210, 244);</string>
@@ -61,7 +61,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Pictures/Ảnh chụp màn hình/Ảnh chụp màn hình 2024-11-14 014553.png</pixmap>
+     <pixmap>../../OneDrive/Pictures/Ảnh chụp màn hình/Ảnh chụp màn hình 2024-11-16 002307.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -100,6 +100,9 @@ color: rgb(255, 255, 255);</string>
       <pointsize>15</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="text">
      <string>Giá: 300.000 VND</string>
     </property>
@@ -117,6 +120,9 @@ color: rgb(255, 255, 255);</string>
      <font>
       <pointsize>15</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Giá: 500.000 VND</string>
@@ -139,7 +145,8 @@ color: rgb(255, 255, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Mua </string>
@@ -147,6 +154,12 @@ color: rgb(255, 255, 255);</string>
     <property name="icon">
      <iconset>
       <normaloff>../../Downloads/326700_cart_shopping_icon.png</normaloff>../../Downloads/326700_cart_shopping_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -233,15 +246,17 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>150</x>
       <y>450</y>
-      <width>71</width>
-      <height>20</height>
+      <width>81</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -251,15 +266,17 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>130</x>
       <y>480</y>
-      <width>121</width>
+      <width>131</width>
       <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
